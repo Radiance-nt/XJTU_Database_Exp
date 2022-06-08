@@ -101,7 +101,7 @@ public class DBTest {
                 buf = buf + line + " ";
             }
             if (line.contains(";")){
-                if (buf.toLowerCase().contains("script/select") & !buf.toLowerCase().contains("create")){
+                if (buf.toLowerCase().contains("select") & !buf.toLowerCase().contains("create")){
                     ExecSelect(conn, buf);
                 }
                 else {
