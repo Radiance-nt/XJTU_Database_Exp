@@ -1,0 +1,2 @@
+-- Example
+SELECT Cno, Cname FROM C249 WHERE Cno LIKE CONCAT('EE', '%');

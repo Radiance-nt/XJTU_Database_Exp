@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS S249 (Sno Integer PRIMARY KEY, Sname VARCHAR(32), Sex Char(4), BDATE Date, Height Number, Dorm VARCHAR(32));
+CREATE TABLE IF NOT EXISTS C249 (Cno VARChar(16) PRIMARY KEY, Cname VARCHAR(32), Period Integer, Credit Float, Teacher VARCHAR(32));
+CREATE TABLE IF NOT EXISTS SC249 (Sno Integer, Cno VARChar(16), Grade Number,
+    PRIMARY KEY(Sno, Cno), Foreign Key(Sno) references S249(Sno), Foreign Key(Cno) references C249(Cno));

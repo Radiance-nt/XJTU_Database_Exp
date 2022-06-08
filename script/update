@@ -1,0 +1,8 @@
+-- Example
+
+INSERT INTO S249 VALUES
+(0032005,'刘竞','男','1993-12-10',1.75,'东14舍312');
+
+UPDATE C249 SET Period=64, Credit=Credit+1 WHERE Teacher='张明';
+
+CREATE VIEW V1 AS SELECT * FROM S249;
