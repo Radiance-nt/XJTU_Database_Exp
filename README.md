@@ -3,6 +3,7 @@
 ## For reference
 
 ## Effect looks like this
+
 Jun 08, 2022 6:15:22 PM org.postgresql.core.v3.ConnectionFactoryImpl openConnectionImpl
 INFO: [a85e2185-e799-490e-9860-75368f40aaca] Try to connect. IP: localhost:5432
 Jun 08, 2022 6:15:22 PM org.postgresql.core.v3.ConnectionFactoryImpl openConnectionImpl
